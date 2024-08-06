@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to predict the popularity of music tracks using a dataset of the most streamed Spotify songs in 2024, obtained from Kaggle. The models implemented include Linear Regression, Random Forest, Gradient Boosting, and XGBoost. The goal is to identify key features that contribute to a track's success and evaluate the performance of different models in predicting track scores.
+This project aims to predict the popularity of music tracks(Track Score) using a dataset of the most streamed Spotify songs in 2024, obtained from Kaggle. The models implemented include Linear Regression, Random Forest, Gradient Boosting, and XGBoost. The goal is to identify key features that contribute to a track's success and evaluate the performance of different models in predicting track scores.
 
 ## Dataset
 
