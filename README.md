@@ -61,25 +61,30 @@ The dataset includes the following features:
 
 ## Results
 
-### Feature Importance
+#### Key Findings:
 
-- Analyzed feature importance scores from ensemble models (Random Forest, XGBoost) to identify the most influential features.
-- **Key Features**:
-  - **YouTube Views**: Strong indicator of track popularity due to broad reach and visibility.
-  - **Spotify Streams**: Direct metric reflecting a track's popularity and audience engagement.
-  - **TikTok Views**: Captures viral trends and youth engagement.
-  - **Playlist Counts**: Influence from playlist inclusions on multiple streaming platforms drives visibility.
+- **Amazon Playlist Count** is the most influential feature, suggesting that tracks included in more playlists on Amazon are likely to achieve higher popularity. This reflects the broad reach and impact of Amazon's music service.
+- **Spotify Popularity** ranks second, underscoring Spotify's role as a primary platform for music consumption. High popularity on Spotify directly correlates with overall track success.
+- **TikTok Views** also plays a significant role, highlighting the importance of social media platforms in shaping music trends and reaching younger audiences.
+
+These insights indicate that a multifaceted approach to platform presence, especially in major streaming and social media platforms, is crucial for a track's success.
 
 ### Model Comparison
 
-- Compared model performance based on MAE and RMSE metrics across various models.
-- **Best Performing Model**: Random Forest demonstrated the best balance between accuracy and interpretability for this dataset.
-- **Accuracy Insights**: Certain tracks with high social media engagement were predicted more accurately due to their strong feature correlations.
+The analysis involved comparing several models to determine which best predicts track success. The models were evaluated based on their Mean Absolute Error (MAE) and Root Mean Square Error (RMSE), with the following findings:
 
-## Conclusion
+- **Random Forest** exhibited the best performance, providing a balance between accuracy and computational efficiency.
+- **Gradient Boosting** and **XGBoost** offered competitive results, particularly useful in handling complex nonlinear patterns.
+- **Linear Regression**, used as a baseline, showed the least predictive power, indicating the importance of more sophisticated algorithms for this dataset.
 
-This project highlights the potential of machine learning models in predicting music track success. By analyzing feature importance and comparing model performance, we gain valuable insights into the factors contributing to a track's popularity.
+This comparative analysis underscores the effectiveness of ensemble methods in handling diverse and large datasets typically found in music streaming platforms.
 
+## Future Work
+
+Future analyses might explore:
+- **Additional Features**: Incorporating data on artist genres, collaborations, and user demographics could yield more nuanced insights.
+- **Hyperparameter Tuning**: Optimizing parameters for ensemble models could enhance their predictive accuracy.
+- **Real-Time Predictions**: Developing a system to predict track popularity in real-time as new data becomes available.
 ## Future Work
 
 - Explore additional features such as artist collaborations and genres for deeper insights.
