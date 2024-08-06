@@ -81,12 +81,6 @@ This comparative analysis underscores the effectiveness of ensemble methods in h
 
 ## Future Work
 
-Future analyses might explore:
-- **Additional Features**: Incorporating data on artist genres, collaborations, and user demographics could yield more nuanced insights.
-- **Hyperparameter Tuning**: Optimizing parameters for ensemble models could enhance their predictive accuracy.
-- **Real-Time Predictions**: Developing a system to predict track popularity in real-time as new data becomes available.
-## Future Work
-
 - Explore additional features such as artist collaborations and genres for deeper insights.
 - Implement hyperparameter tuning to further optimize model performance using tools like GridSearchCV.
 - Investigate model deployment for real-time predictions in streaming services.
